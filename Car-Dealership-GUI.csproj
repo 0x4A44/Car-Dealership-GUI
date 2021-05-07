@@ -75,16 +75,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="addCarLotForm.cs">
+    <Compile Include="SalesPerson-Forms\addCarLotForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="addCarLotForm.Designer.cs">
+    <Compile Include="SalesPerson-Forms\addCarLotForm.Designer.cs">
       <DependentUpon>addCarLotForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="adminDelete.cs">
+    <Compile Include="SalesPerson-Forms\adminDelete.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="adminDelete.Designer.cs">
+    <Compile Include="SalesPerson-Forms\adminDelete.Designer.cs">
       <DependentUpon>adminDelete.cs</DependentUpon>
     </Compile>
     <Compile Include="CarDealershipDataSet.Designer.cs">
@@ -97,65 +97,65 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CarDealershipDataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="CEditProfile.cs">
+    <Compile Include="Customer-Forms\CEditProfile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CEditProfile.Designer.cs">
+    <Compile Include="Customer-Forms\CEditProfile.Designer.cs">
       <DependentUpon>CEditProfile.cs</DependentUpon>
     </Compile>
-    <Compile Include="ColorChart.cs">
+    <Compile Include="Customer-Forms\ColorChart.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ColorChart.Designer.cs">
+    <Compile Include="Customer-Forms\ColorChart.Designer.cs">
       <DependentUpon>ColorChart.cs</DependentUpon>
     </Compile>
-    <Compile Include="CPotentialSale.cs">
+    <Compile Include="Customer-Forms\CPotentialSale.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CPotentialSale.Designer.cs">
+    <Compile Include="Customer-Forms\CPotentialSale.Designer.cs">
       <DependentUpon>CPotentialSale.cs</DependentUpon>
     </Compile>
-    <Compile Include="CPreviousSales.cs">
+    <Compile Include="Customer-Forms\CPreviousSales.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CPreviousSales.Designer.cs">
+    <Compile Include="Customer-Forms\CPreviousSales.Designer.cs">
       <DependentUpon>CPreviousSales.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer.cs" />
-    <Compile Include="CustomerSignUpForm.cs">
+    <Compile Include="Customer-Forms\Customer.cs" />
+    <Compile Include="Customer-Forms\CustomerSignUpForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CustomerSignUpForm.Designer.cs">
+    <Compile Include="Customer-Forms\CustomerSignUpForm.Designer.cs">
       <DependentUpon>CustomerSignUpForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="cViewCar.cs">
+    <Compile Include="Customer-Forms\cViewCar.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="cViewCar.Designer.cs">
+    <Compile Include="Customer-Forms\cViewCar.Designer.cs">
       <DependentUpon>cViewCar.cs</DependentUpon>
     </Compile>
-    <Compile Include="eAddCar.cs">
+    <Compile Include="SalesPerson-Forms\eAddCar.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="eAddCar.Designer.cs">
+    <Compile Include="SalesPerson-Forms\eAddCar.Designer.cs">
       <DependentUpon>eAddCar.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmployeeSignUpForm.cs">
+    <Compile Include="SalesPerson-Forms\EmployeeSignUpForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EmployeeSignUpForm.Designer.cs">
+    <Compile Include="SalesPerson-Forms\EmployeeSignUpForm.Designer.cs">
       <DependentUpon>EmployeeSignUpForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="EPotentialSale.cs">
+    <Compile Include="SalesPerson-Forms\EPotentialSale.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="EPotentialSale.Designer.cs">
+    <Compile Include="SalesPerson-Forms\EPotentialSale.Designer.cs">
       <DependentUpon>EPotentialSale.cs</DependentUpon>
     </Compile>
-    <Compile Include="ESoldVehicles.cs">
+    <Compile Include="SalesPerson-Forms\ESoldVehicles.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ESoldVehicles.Designer.cs">
+    <Compile Include="SalesPerson-Forms\ESoldVehicles.Designer.cs">
       <DependentUpon>ESoldVehicles.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
@@ -164,58 +164,55 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewMakeModelColorForm.cs">
+    <Compile Include="SalesPerson-Forms\NewMakeModelColorForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewMakeModelColorForm.Designer.cs">
+    <Compile Include="SalesPerson-Forms\NewMakeModelColorForm.Designer.cs">
       <DependentUpon>NewMakeModelColorForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="roundButton.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="SalesPerson.cs" />
-    <EmbeddedResource Include="addCarLotForm.resx">
+    <Compile Include="SalesPerson-Forms\SalesPerson.cs" />
+    <EmbeddedResource Include="SalesPerson-Forms\addCarLotForm.resx">
       <DependentUpon>addCarLotForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="adminDelete.resx">
+    <EmbeddedResource Include="SalesPerson-Forms\adminDelete.resx">
       <DependentUpon>adminDelete.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CEditProfile.resx">
+    <EmbeddedResource Include="Customer-Forms\CEditProfile.resx">
       <DependentUpon>CEditProfile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ColorChart.resx">
+    <EmbeddedResource Include="Customer-Forms\ColorChart.resx">
       <DependentUpon>ColorChart.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CPotentialSale.resx">
+    <EmbeddedResource Include="Customer-Forms\CPotentialSale.resx">
       <DependentUpon>CPotentialSale.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CPreviousSales.resx">
+    <EmbeddedResource Include="Customer-Forms\CPreviousSales.resx">
       <DependentUpon>CPreviousSales.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomerSignUpForm.resx">
+    <EmbeddedResource Include="Customer-Forms\CustomerSignUpForm.resx">
       <DependentUpon>CustomerSignUpForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="cViewCar.resx">
+    <EmbeddedResource Include="Customer-Forms\cViewCar.resx">
       <DependentUpon>cViewCar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="eAddCar.resx">
+    <EmbeddedResource Include="SalesPerson-Forms\eAddCar.resx">
       <DependentUpon>eAddCar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmployeeSignUpForm.resx">
+    <EmbeddedResource Include="SalesPerson-Forms\EmployeeSignUpForm.resx">
       <DependentUpon>EmployeeSignUpForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EPotentialSale.resx">
+    <EmbeddedResource Include="SalesPerson-Forms\EPotentialSale.resx">
       <DependentUpon>EPotentialSale.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ESoldVehicles.resx">
+    <EmbeddedResource Include="SalesPerson-Forms\ESoldVehicles.resx">
       <DependentUpon>ESoldVehicles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewMakeModelColorForm.resx">
+    <EmbeddedResource Include="SalesPerson-Forms\NewMakeModelColorForm.resx">
       <DependentUpon>NewMakeModelColorForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
